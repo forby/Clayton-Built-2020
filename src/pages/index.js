@@ -20,26 +20,26 @@ export default function Home() {
           <p>ecobee smart thermostats seamlessly integrates with several smart home systems such as Google Assistant™, Apple® HomeKit™  and Amazon Alexa. Monitor and adjust your ecobee thermostat from anywhere using your smart device.</p>
           <p>ecobee thermostats can understand your schedule, local weather and HVAC system performance over time, optimizing for comfort based on your preferences.</p>
           <p className="text-xs leading-snug">Google Assistant is a trademark of Google LLC. Apple and HomeKit are trademarks of Apple, Inc., registered in the U.S. and other countries. Amazon, Alexa and all related trademarks and logos are trademarks of Amazon.com, Inc., or its affiliates.</p>
-          <img className="mt-6" src="images/Exclusive Tag.svg" />
+          <img className="mt-6" src="images/Exclusive Tag.svg" alt="" />
         </BrandsListItem>
         <BrandsListItem swap="true" large="SmartComfort_Desktop.jpg" small="Carrier_Tablet.jpg">
-          <RetinaImage src="images/brand-logos/SmartComfort_BC Logo.png" className="mb-6" />
+          <RetinaImage src="images/brand-logos/SmartComfort_BC_Logo.png" className="mb-6" />
           <p><Link href="#" text="SmartComfort® by Carrier" /> is a fully insulated, sealed furnace unit that ensures you feel the comfort but don't hear it. SmartComfort air conditioners and heat pumps offer a range of impressive SEER (seasonal energy efficiency ratio) ratings to help save energy and reduce utility bills.</p>
           <p>SmartComfort by Carrier heating and cooling products undergo some of the most detailed and stringent quality processes during assembly, including a 100% run-testing of every unit made.</p>
-          <img className="mt-6" src="images/Exclusive Tag.svg" />
+          <img className="mt-6" src="images/Exclusive Tag.svg" alt="" />
         </BrandsListItem>
         <BrandsListItem swap="false" large="Duracraft_Desktop.jpg" small="Duracraft_Tablet.jpg">
           <RetinaImage src="images/brand-logos/DuraCraft__Logo_K.png" className="mb-6" />
           <p><Link href="#" text="DuraCraft®" /> cabinetry surfaces are made from a sturdy, water-repellent material developed in Europe that is exclusive to Clayton Built® homes in the off-site housing industry.</p>
           <p>DuraCraft cabinets are assembled using modern machinery and installed by hand at a Clayton home building facility with precision and care.</p>
           <p>These cabinets are designed to be unique and beautiful with fresh, on-trend colors, giving your spaces the look and feel you want.</p>
-          <img className="mt-6" src="images/Exclusive Tag.svg" />
+          <img className="mt-6" src="images/Exclusive Tag.svg" alt="" />
         </BrandsListItem>
         <BrandsListItem swap="true" large="Lux_Desktop.jpg" small="Lux_Tablet.jpg">
           <RetinaImage src="images/brand-logos/Lux_Logo_Color.png" className="mb-6" />
           <p>Exclusive to Clayton Built® homes, <Link href="#" text="Lux windows" /> are more than just a beautiful design feature, they help homes be more energy efficient. That’s why they only use Low-E glass and have optional argon gas-filled windows for even more efficiency.</p>
           <p>Keeping the elements out of your home is a window’s top job, that’s why all Lux windows also contain double-paned insulated glass to help reduce energy use and outside noise.</p>
-          <img className="mt-6" src="images/Exclusive Tag.svg" />
+          <img className="mt-6" src="images/Exclusive Tag.svg" alt="" />
         </BrandsListItem>
         <BrandsListItem swap="false" large="Kwikset_Desktop.jpg" small="Kwikset_Tablet.jpg">
           <RetinaImage src="images/brand-logos/Kwikset_Logo_Grey.png" className="mb-6" />
