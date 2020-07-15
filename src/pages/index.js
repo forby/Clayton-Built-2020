@@ -87,6 +87,18 @@ export default function Home() {
         <p className="text-lg">We believe in going above and beyond what’s expected to build homes that are efficient, dependable and beautiful so that you can sit back, relax and enjoy your new home.</p>
       </div>
 
+      <div className="container max-w-screen-lg mx-auto md:px-4">
+        <div className="flex flex-col md:flex-row-reverse">
+          <div className="md:w-1/2">
+            <RetinaImage className="w-full h-full object-cover" src="images/BuildingHomes_Desktop.jpg" />
+          </div>
+          <div className="md:w-1/2 bg-ch-bedtime text-white p-16">
+            <h1 className="text-4xl font-extrabold leading-tight mb-6">Building Homes to Live a Lifetime</h1>
+            <p>Clayton Built® homes are constructed with the vast network of knowledge and expertise of our nearly 10,000 valued team members. Our hardworking team members share a resounding commitment to help our customers Build Happyness® by having a quality and beautiful home to call their own.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }

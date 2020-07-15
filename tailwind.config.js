@@ -14,6 +14,7 @@ module.exports = {
         'ch-blue': '#0075C9',
         'ch-brands-grey': '#F3F5F7',
         'ch-black': '#25292D',
+        'ch-bedtime': '#06292F',
       },
     },
   },
