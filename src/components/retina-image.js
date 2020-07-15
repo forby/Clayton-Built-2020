@@ -8,7 +8,7 @@ export default function RetinaImage(props) {
 
     return (
         <img 
-            data-srcset={path + "." + extension + " 1x, " + path + "@2x." + extension + " 2x"}
+            srcSet={path + "." + extension + " 1x, " + path + "@2x." + extension + " 2x"}
             src={path + "." + extension}
             className={props.className}
             alt={props.alt}

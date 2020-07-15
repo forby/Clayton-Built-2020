@@ -6,6 +6,13 @@ import Link from "../components/link"
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
+
+      <div className="container max-w-screen-lg mx-auto px-4 text-center py-16 lg:py-20 xl:py-32">
+        <h1 className="heading mb-6">Built Using Quality Brands</h1>
+        <p className="text-lg">When you look at a Clayton Built® home, you will see it is complete with appliances and materials from other dependable brands built right in. We partner with some of the world’s leading homebuilding brands to ensure your home is equipped with safe, sustainable, long-lasting and innovative products.</p>
+        <p className="text-xs leading-snug">Material brands are subject to change depending on availability, home model and building facility constructing the home.</p>
+      </div>
+
       <div className="grid grid-flow-row lg:gap-8 lg:max-w-screen-lg xl:max-w-screen-xl lg:mx-auto lg:px-4">
         <BrandsListItem swap="false" large="ecobee_desktop.jpg" small="ecobee_Tablet.jpg">
           <RetinaImage src="images/brand-logos/ecobee_Logo_Grey.png" className="mb-6" />
@@ -58,6 +65,28 @@ export default function Home() {
           <p>As the largest manufacturer of water heating products in North America, <Link href="#" text="Rheem" /> is committed to providing its customers long-lasting comfort and savings through features like its automatic thermostat, which keeps water heated to your desired temperature. Rheem’s EverKleen™ self-cleaning system also fights sediment build-up to sustain operating efficiency and improve the life of the tank.</p>
         </BrandsListItem>
       </div>
+
+      <div className="container max-w-screen-lg mx-auto px-4 text-center py-16 lg:py-20 xl:py-32">
+        <h1 className="heading mb-6">Additional Brands</h1>
+        <div className="extra-brands-list mb-8">
+          <RetinaImage className="height-fit" src="images/additional-brands/CertainTeed_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Formica_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Hunter_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/JamesHardie_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/JM_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Knauf_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/LP_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/PlyGem_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/PPG_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Sherwin-Williams_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Tamko_Logo.png" />
+          <RetinaImage className="height-fit" src="images/additional-brands/Wilsonart_Logo.png" />
+        </div>
+        <p className="text-xs leading-snug">Trademarks of companies other than Clayton Homes are the property of those other companies.</p>
+        <p className="text-lg">We partner with some of the world’s leading homebuilding brands to ensure your home is equipped with safe, sustainable, long-lasting and innovative products. Beyond the elevated products in our homes, we build Clayton Built® homes to our own exact standard, exceeding minimum requirements.  Whether it’s added strength in your flooring system, or extra protection against the elements, we obsess over the details of your home to ensure durability and quality are there for a lifetime.</p>
+        <p className="text-lg">We believe in going above and beyond what’s expected to build homes that are efficient, dependable and beautiful so that you can sit back, relax and enjoy your new home.</p>
+      </div>
+
     </div>
   )
 }

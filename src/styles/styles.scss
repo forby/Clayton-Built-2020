@@ -19,10 +19,27 @@ p + p {
     @apply mt-6;
 }
 
+.heading {
+    font-size: 2rem;
+    @apply font-extrabold text-ch-black;
+}
+
 .left-50 {
     left: 50%;
 }
 
 .right-50 {
     right: 50%;
+}
+
+.height-fit {
+    height: fit-content;
+}
+
+.extra-brands-list {
+    @apply flex flex-wrap justify-center items-center;
+
+    > * {
+        @apply mx-4;
+    }
 }
