@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* TypeKit */
+@import url("https://use.typekit.net/mht7tlf.css");
+
+html {
+    font-size: 16px;
+
+    @apply antialiased;
+}
+
+p {
+    line-height: 1.69rem;
+}
+
+p + p {
+    @apply mt-6;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.right-50 {
+    right: 50%;
+}
