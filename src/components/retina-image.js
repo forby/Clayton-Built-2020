@@ -7,7 +7,7 @@ export default function RetinaImage(props) {
     const extension = parts[1];
 
     return (
-        <img 
+        <img
             srcSet={path + "." + extension + " 1x, " + path + "@2x." + extension + " 2x"}
             src={path + "." + extension}
             className={props.className}
