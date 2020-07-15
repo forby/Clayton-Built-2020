@@ -10,7 +10,7 @@ export default function PartnerGridItem(props) {
                         <RetinaImage className="absolute h-full w-full object-cover t-0 l-0" src={props.imageSrc} />
                         <div className="relative p-4">
                             <h3 className="uppercase text-sm text-white font-semibold">{props.subheading}</h3>
-                            <h2 className="text-2xl text-white font-bold leading-tight" dangerouslySetInnerHTML={{ __html: props.heading }}></h2>
+                            <h2 className="text-2xl text-white font-bold leading-tight w-2/3">{props.heading}</h2>
                         </div>
                     </div>
                 </div>

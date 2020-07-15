@@ -98,9 +98,9 @@ export default function Home() {
                 </BrandsListItem>
             </div>
 
-            <div className="container max-w-screen-lg mx-auto px-4 text-center py-16 lg:py-20 xl:py-32">
-                <h1 className="heading heading-normal mb-6">Additional Brands</h1>
-                <div className="extra-brands-list mb-8">
+            <div className="container max-w-screen-lg mx-auto px-4 py-16 lg:py-20 xl:py-32">
+                <h1 className="heading heading-normal text-center mb-6">Additional Brands</h1>
+                <div className="extra-brands-list mb-16 md:mb-8">
                     <RetinaImage className="height-fit" src="images/additional-brands/CertainTeed_Logo.png" />
                     <RetinaImage className="height-fit" src="images/additional-brands/Formica_Logo.png" />
                     <RetinaImage className="height-fit" src="images/additional-brands/Hunter_Logo.png" />
@@ -114,9 +114,9 @@ export default function Home() {
                     <RetinaImage className="height-fit" src="images/additional-brands/Tamko_Logo.png" />
                     <RetinaImage className="height-fit" src="images/additional-brands/Wilsonart_Logo.png" />
                 </div>
-                <p className="text-xs leading-snug">Trademarks of companies other than Clayton Homes are the property of those other companies.</p>
-                <p className="text-lg">We partner with some of the world’s leading homebuilding brands to ensure your home is equipped with safe, sustainable, long-lasting and innovative products. Beyond the elevated products in our homes, we build Clayton Built® homes to our own exact standard, exceeding minimum requirements.  Whether it’s added strength in your flooring system, or extra protection against the elements, we obsess over the details of your home to ensure durability and quality are there for a lifetime.</p>
-                <p className="text-lg">We believe in going above and beyond what’s expected to build homes that are efficient, dependable and beautiful so that you can sit back, relax and enjoy your new home.</p>
+                <p className="text-xs leading-snug md:text-center">Trademarks of companies other than Clayton Homes are the property of those other companies.</p>
+                <p className="text-lg md:text-center">We partner with some of the world’s leading homebuilding brands to ensure your home is equipped with safe, sustainable, long-lasting and innovative products. Beyond the elevated products in our homes, we build Clayton Built® homes to our own exact standard, exceeding minimum requirements.  Whether it’s added strength in your flooring system, or extra protection against the elements, we obsess over the details of your home to ensure durability and quality are there for a lifetime.</p>
+                <p className="text-lg md:text-center">We believe in going above and beyond what’s expected to build homes that are efficient, dependable and beautiful so that you can sit back, relax and enjoy your new home.</p>
             </div>
 
             <div className="xl:w-full xl:max-w-none xl:mx-0 xl:px-0 lg:max-w-screen-lg md:mx-auto md:px-4">
@@ -124,8 +124,8 @@ export default function Home() {
                     <div className="md:w-1/2">
                         <RetinaImage className="w-full h-full object-cover" src="images/BuildingHomes_Desktop.jpg" />
                     </div>
-                    <div className="md:w-1/2 bg-ch-bedtime text-white p-16 flex flex-col justify-center">
-                        <h1 className="text-4xl font-extrabold leading-tight mb-6">Building Homes to Live a Lifetime</h1>
+                    <div className="md:w-1/2 bg-ch-bedtime text-white px-8 py-16 md:p-16 flex flex-col justify-center">
+                        <h1 className="text-4xl font-bold leading-tight mb-6">Building Homes to Live a Lifetime</h1>
                         <p>Clayton Built® homes are constructed with the vast network of knowledge and expertise of our nearly 10,000 valued team members. Our hardworking team members share a resounding commitment to help our customers Build Happyness® by having a quality and beautiful home to call their own.</p>
                     </div>
                 </div>
@@ -165,40 +165,40 @@ export default function Home() {
                 <h1 className="heading heading-normal">Learn More About Clayton Built® and Our Brand Partners</h1>
             </div>
 
-            <div className="contianer max-w-screen-lg mx-auto px-4 mt-16">
+            <div className="contianer max-w-screen-lg mx-auto px-4 mt-8 md:mt-16">
                 <div className="grid gap-6 lg:grid-cols-2 grid-flow-row-dense">
                     <PartnerGridItem
                         className="h-64"
                         subheading="Home Building"
-                        heading="Why a Clayton Built® Home is<br />More Than a House"
+                        heading="Why a Clayton Built® Home is More Than a House"
                         imageSrc="images/partners/Studio_Small_1.jpg"
                         href="https://www.claytonhomes.com/studio/clayton-built"
                     />
                     <PartnerGridItem
                         className="h-64"
                         subheading="Home Buying"
-                        heading="What Comes Standard with a<br />Clayton Built® Home?"
+                        heading="What Comes Standard with a Clayton Built® Home?"
                         imageSrc="images/partners/Studio_Small_2.jpg"
                         href="https://www.claytonhomes.com/studio/what-comes-standard-with-a-clayton-built-home"
                     />
                     <PartnerGridItem
                         className="h-128 lg:h-auto lg:row-span-2 lg:col-start-2 lg:row-start-1"
                         subheading="Home Building"
-                        heading="How Are Prefabricated Home<br />Windows Built?"
+                        heading="How Are Prefabricated Home Windows Built?"
                         imageSrc="images/partners/Studio_Large_1.jpg"
                         href="https://www.claytonhomes.com/studio/how-are-prefabricated-home-windows-built"
                     />
                     <PartnerGridItem
                         className="h-64"
                         subheading="Home Features"
-                        heading="How An ecobee Smart<br />Thermostat® Can Help You Save"
+                        heading="How An ecobee Smart Thermostat® Can Help You Save"
                         imageSrc="images/partners/Studio_Small_3.jpg"
                         href="https://www.claytonhomes.com/studio/ecobee-smart-thermostats-in-clayton-built-homes"
                     />
                     <PartnerGridItem
                         className="h-64"
                         subheading="Home Building"
-                        heading="How Clayton Kitchen and<br />Bathroom Cabinets Are Made"
+                        heading="How Clayton Kitchen and Bathroom Cabinets Are Made"
                         imageSrc="images/partners/Studio_Small_4.jpg"
                         href="https://www.claytonhomes.com/studio/how-clayton-kitchen-cabinets-are-made-cabinet-materials"
                     />
@@ -207,7 +207,7 @@ export default function Home() {
 
             <div className="contianer max-w-screen-lg mx-auto px-4 my-32 text-center">
                 <h1 className="heading heading-large">Ready for Us to Build Your Dream Home?</h1>
-                <Button className="mt-6" href="https://www.claytonhomes.com/come-see-a-home/" text="FIND A Clayton Built® Home RETAILER" />
+                <Button className="mt-8 md:mt-6" href="https://www.claytonhomes.com/come-see-a-home/" text="FIND A Clayton Built® Home RETAILER" />
             </div>
 
         </div>

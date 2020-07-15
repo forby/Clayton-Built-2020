@@ -10,7 +10,7 @@ export default function BrandsListItem(props) {
                 <RetinaImage src={"images/brand-photos/" + props.small} className="w-full lg:hidden"/>
             </div>
             <div className={`${props.swap === "true" ? "lg:col-start-1" : ""} relative lg:col-span-6 bg-ch-brands-grey flex items-center`}>
-                <div className="p-16">
+                <div className="pt-8 px-8 pb-24 md:p-16">
                     { props.children }
                 </div>
             </div>
