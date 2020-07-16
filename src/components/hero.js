@@ -21,7 +21,7 @@ class Hero extends Component {
         return (
             <div className="relative h-hero-small md:h-hero-large">
                 <div className="bg-gray-800 absolute w-full h-full top-0 left-0 overflow-hidden">
-                    <video ref="loopingVideo" className="w-full h-full object-cover" loop muted autoPlay preload="auto">
+                    <video ref="loopingVideo" className="w-full h-full object-cover" loop muted autoPlay preload="auto" playsInline>
                         <source src="videos/Details_Matter_Header.mp4" type="video/mp4" />
                     </video>
                 </div>
