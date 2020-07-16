@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Button from "../components/button"
 
+// Images
+import VideoPoster from "../images/VideoHeader_Large.jpg"
+
 class Hero extends Component {
 
     // hande button click
@@ -20,8 +23,8 @@ class Hero extends Component {
     render() {
         return (
             <div className="relative h-hero-small md:h-hero-large">
-                <div className="bg-gray-800 absolute w-full h-full top-0 left-0 overflow-hidden">
-                    <video ref="loopingVideo" className="w-full h-full object-cover" loop muted autoPlay preload="auto" playsInline>
+                <div className="bg-gray-200 absolute w-full h-full top-0 left-0 overflow-hidden">
+                    <video ref="loopingVideo" poster={VideoPoster} className="w-full h-full object-cover" loop muted autoPlay preload="auto" playsInline>
                         <source src="videos/Details_Matter_Header.mp4" type="video/mp4" />
                     </video>
                 </div>
