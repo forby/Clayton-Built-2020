@@ -41,7 +41,7 @@ class Hero extends Component {
                         <Button href="https://www.claytonhomes.com/find-a-home/" className="mt-6" text="Shop Clayton Built® Homes" />
                         <div className="flex justify-center mt-6">
                             <button className="cursor-pointer focus:outline-none mr-4" onClick={() => this.handlePlayPause()}>
-                                <img src="images/Play Button.svg" alt="" />
+                                <img src={`images/${this.state.playing ? "Stop" : "Play"} Button.svg`} alt="" />
                             </button>
                             <button className="cursor-pointer focus:outline-none">
                                 <img src="images/Expand Button.svg" alt="" />
