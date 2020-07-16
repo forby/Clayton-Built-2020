@@ -45,8 +45,7 @@ class Home extends Component {
                 <VideoModal closeFn={this.handleModalClose.bind(this)} modalActive={this.state.modalActive} />
                 <div className="overflow-x-hidden">
 
-                    {/* Temporary Spacer */}
-                    <div className="h-32"></div>
+                    {/* Header Here? */}
 
                     <Hero openFn={this.handleModalOpen.bind(this)} playPauseFn={this.handleBGPlayPause.bind(this)} playing={this.state.bgPlaying} />
 
@@ -241,6 +240,8 @@ class Home extends Component {
                         <h1 className="heading heading-large">Ready for Us to Build Your Dream Home?</h1>
                         <Button className="mt-8 md:mt-6" href="https://www.claytonhomes.com/come-see-a-home/" text="FIND A Clayton Built® Home RETAILER" />
                     </div>
+
+                    {/* Footer Here? */}
 
                 </div>
             </div>
