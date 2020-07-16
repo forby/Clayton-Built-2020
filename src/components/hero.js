@@ -3,22 +3,13 @@ import Button from "../components/button"
 
 class Hero extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            playing: true
-        }
-    }
-
     // hande button click
     handlePlayPause() {
-        this.setState(prevState => ({
-            playing: !prevState.playing
-        }));
+        // update state in parent
+        this.props.playPauseFn();
 
         // Handle video play/pause based on state
-        if (this.state.playing) {
+        if (this.props.playing) {
             this.refs.loopingVideo.pause();
         } else {
             this.refs.loopingVideo.play();
@@ -40,10 +31,10 @@ class Hero extends Component {
                         <p className="font-bold">When you buy a home with the Clayton Built® stamp on it, you’re getting a home that’s just as important to us as it is to you. You can be confident your home is built on a foundation of strength, integrity and accountability, because for us, “good enough” just doesn’t cut it.</p>
                         <Button href="https://www.claytonhomes.com/find-a-home/" className="mt-6" text="Shop Clayton Built® Homes" />
                         <div className="flex justify-center mt-6">
-                            <button className="cursor-pointer focus:outline-none mr-4" onClick={() => this.handlePlayPause()}>
-                                <img src={`images/${this.state.playing ? "Stop" : "Play"} Button.svg`} alt="" />
+                            <button className="cursor-pointer focus:outline-none mr-4" onClick={(e) => this.handlePlayPause()}>
+                                <img src={`images/${this.props.playing ? "Stop" : "Play"} Button.svg`} alt="" />
                             </button>
-                            <button className="cursor-pointer focus:outline-none">
+                            <button className="cursor-pointer focus:outline-none" onClick={(e) => this.props.openFn()}>
                                 <img src="images/Expand Button.svg" alt="" />
                             </button>
                         </div>
